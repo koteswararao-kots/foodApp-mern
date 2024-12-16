@@ -30,6 +30,6 @@ app.listen(PORT, () => {
     console.log(`server started and running at http://localhost:${PORT}`)
 })
 
-app.use('/home', (req, res) => {
-    res.send("Home page")
+app.use('/', (req, res) => {
+    res.send("welcome SKHT foods")
 })
